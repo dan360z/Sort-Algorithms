@@ -18,9 +18,6 @@ public class Main {
 
         int[] variationOfSelectionSorted = variationOfSelection(list3);
         System.out.println("variation of selection sort: " + Arrays.toString(variationOfSelectionSorted) + "\n");
-
-        int[] strangeSorted = variationOfSelection(list3);
-        System.out.println("variation of selection sort: " + Arrays.toString(strangeSorted) + "\n");
     }
 
     private static int[] insertionSort(int[] array) {
